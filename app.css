@@ -1,0 +1,37 @@
+body{
+    background-color: #474544;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#mainNavbar .navbar-brand{
+    color: white;
+    font-weight: 100; 
+    font-size: 1.8rem;
+}
+
+#navbarNav {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) { 
+    #mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+    }
+    
+    #navbarNav {
+        font-size: 1.2rem;
+    }
+
+    h4{
+        font-size: 19px;
+    }
+
+    .lead{
+    font-size: 17px;
+    }
+}
